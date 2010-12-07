@@ -1,0 +1,67 @@
+#main
+  .brick.col3
+    %h4
+      = link_to "Moka, a damn cool static website framework", "https://github.com/DukeLeNoir/Moka"
+    %p
+      = "Moka is a framework I coded for developing static websites with the style and simplicity of haiku poetry (this website was entirely built with it). It minimize chores and maximise creativity. It is (naturally) #{link_to "open source", "https://github.com/DukeLeNoir/Moka"}, written in pure Ruby and released as a Ruby gem. I'm sure you'll hear great things about it very soon!"
+
+  .brick.col1
+    %h4
+      = link_to "Hackeritivo", "http://www.hackeritivo.it/"
+    %p
+      Me and my friend
+      = link_to "Luca Tironi", "http://www.lucatironi.net"
+      recently bought this domain with the idea of networking Milan area hackers and creative minds. Will it turn out to be a success?
+
+  .brick.col2
+    %h4
+      = link_to "SDA Bocconi Learning Lab", "http://learninglab.sdabocconi.it"
+    %p
+      My current workplace, where I research and develop web apps to support managerial education in the Business School. It is a cool place, in which our crew of alpha geeks performs Ruby on Rails kung fu. Many cool creative ninjas I know came out of this lab.
+
+  .brick.col1
+    %h4 A Collective Brain
+    %p
+      Ever thought about the fact that Twitter (and much of the Web) may be a sort of huge human neural network? Cool, isn't it? I'm doing some research and my master thesis on this...
+
+  .brick.col1
+    %h4
+      = link_to "HTML Terminal", "http://www.lucaongaro.eu/terminal/"
+    %p
+      This HTML + CSS + JavaScript
+      = link_to "command line terminal emulation", "http://www.lucaongaro.eu/terminal/"
+      is just a random experiment, but it would make a cool geeky login interface for a hacker site... If you want to use it, mod it and make it better let me know!
+
+  .brick.col1
+    %h4
+      = link_to "My OpenProcessing Sketches", "http://www.openprocessing.org/portal/?userID=906"
+    %p
+      Have a look at some of
+      = link_to "my experiments and tinkering", "http://www.openprocessing.org/portal/?userID=906"
+      with the awesome
+      = link_to "Processing", "http://processing.org/"
+      language.
+
+  .brick.col1
+    %h4
+      = link_to "VirtualPlantz", "http://www.virtualplantz.com"
+    %p
+      Developed years ago,
+      = link_to "VirtualPlantz", "http://www.virtualplantz.com"
+      was one of my first complete web app. I developed it for fun, but it eventually thousands of users registered and helped me win a couple of competitions. It was a sort of pre-facebook-boom FarmVille.
+
+  .brick.col1
+    %h4
+      = link_to "HTML5 toggle button", "http://lucaongaro.tumblr.com/post/773206025/css3-and-javascript-toggle-button"
+    %p
+      I recently wrote a post on how to easily make a cool
+      = link_to "HTML5 + CSS3 + JavaScript toggle button.", "http://lucaongaro.tumblr.com/post/773206025/css3-and-javascript-toggle-button"
+      Have a look at it.
+
+  .clear
+
+  :javascript
+    $(function() {
+      $('#main').masonry({columnWidth: 175, itemSelector: '.brick'});
+    });
+

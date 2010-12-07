@@ -1,0 +1,3 @@
+#wrap { background-image: url(../images/wrap_bkgd.png); background-position: bottom left; background-repeat: repeat-x; border-bottom: 2px solid #ccc9c0; }
+#wrap #header #nav { background-image: url(../images/nav_bkgd.png); background-position: bottom left; background-repeat: repeat-x; border-bottom: 1px solid #333333; }
+#wrap #sidebar .box { border-bottom: 2px solid #cccccc; border-right: 1px solid #dddddd; background-image: url(../images/box_bkgd.png); background-position: bottom left; background-repeat: repeat-x; }

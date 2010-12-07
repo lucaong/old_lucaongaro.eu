@@ -1,0 +1,41 @@
+.box
+  %h3 You should follow me...
+  %ul
+    %li
+      = "...on"
+      = link_to "Twitter", "http://twitter.com/lucaongaro"
+    %li
+      = "...on"
+      = link_to "LinkedIn", "http://www.linkedin.com/in/lucaongaro"
+    %li
+      = "...on"
+      = link_to "Flickr", "http://www.flickr.com/photos/duke_lenoir"
+    %li
+      = "...on"
+      = link_to "Tumblr", "http://lucaongaro.tumblr.com"
+    %li
+      = "...on"
+      = link_to "About.me", "http://about.me/lucaongaro"
+  %p
+    Or just contact me by
+    %a{:href => "#", :onclick => "this.parentNode.innerHTML = 'Or just contact me at: <a href=' + ['ma', 'ilt', 'o:', 'ma', 'il@', 'luc', 'aong', 'ar', 'o.eu'].join('') + '>' + ['mai', 'l@l', 'uca', 'ong', 'aro', '.eu'].join('') + '</a>'; return false;"} email
+
+.box
+  %h3 I'm a fan of...
+  %ul
+    %li
+      = "..."
+      %strong
+        = link_to "Ruby on Rails", "http://rubyonrails.org/", :class => "black"
+      and 37signals
+    %li
+      = "..."
+      %strong Rock music
+      and vintage guitars
+    %li
+      = "..."
+      %strong Leather jackets
+    %li
+      = "..."
+      %strong Cyberpunk novels
+  %br

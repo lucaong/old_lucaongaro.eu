@@ -1,0 +1,15 @@
+--- 
+site: 
+  name: luca_ongaro
+  root: 
+    order: 1287405254
+    ideas: 
+      order: 1287410454
+      path: ideas.html
+    links: 
+      order: 1287416641
+      path: links.html
+    index: 
+      order: 1287405254
+      path: index.html
+  default_extension: html
