@@ -1,0 +1,7 @@
+h1. This is my website source code
+
+It is written using the awesome "Moka framework":https://github.com/DukeLeNoir/Moka, which takes care of compiling it into a static HTML and CSS site.
+
+h1. Licence
+
+Feel free to give a look to the code and get inspired, but please ask for my permission if you want to reuse images, big chunks of code or text.
