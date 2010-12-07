@@ -1,6 +1,6 @@
 === This is my website source code
 
-It is written using the awesome <a href="https://github.com/DukeLeNoir/Moka">Moka framework</a>, which takes care of compiling it into a static HTML and CSS site.
+It is written using the awesome "Moka framework":https://github.com/DukeLeNoir/Moka, which takes care of compiling it into a static HTML and CSS site.
 
 === Licence
 
