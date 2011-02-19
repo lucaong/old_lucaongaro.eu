@@ -58,3 +58,5 @@ body { font-family: Helvetica, Arial, sans-serif; font-size: 13px; background-co
 #wrap .clear { clear: both; }
 #wrap .centered { text-align: center; }
 #wrap .footer { font-size: 12px; color: #999390; text-shadow: 0px 1px 0px white; margin-bottom: 0.5em; }
+#wrap .footer a { color: #999390; }
+#wrap .footer a:hover { color: #555555; }
