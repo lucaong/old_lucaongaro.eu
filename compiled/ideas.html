@@ -19,6 +19,7 @@
     <![endif]-->
     <script type="text/javascript" src="javascripts/jquery-1.4.3.min.js"></script>
     <script type="text/javascript" src="javascripts/jquery.masonry.min.js"></script>
+    <script type="text/javascript" src="javascripts/noisegen.min.js"></script>
   </head>
   <body>
     <div id='wrap'>
@@ -57,7 +58,7 @@
       </div>
       <div id='sidebar'>
         <div class='box'>
-          <h3>You should follow me...</h3>
+          <h3>Follow me...</h3>
           <ul>
             <li>
               ...on
@@ -69,15 +70,15 @@
             </li>
             <li>
               ...on
-              <a href="http://www.flickr.com/photos/duke_lenoir">Flickr</a>
-            </li>
-            <li>
-              ...on
-              <a href="http://lucaongaro.tumblr.com">Tumblr</a>
-            </li>
-            <li>
-              ...on
               <a href="http://about.me/lucaongaro">About.me</a>
+            </li>
+            <li>
+              ...on
+              <a href="https://github.com/lucaong">GitHub</a>
+            </li>
+            <li>
+              ...on
+              <a href="http://primegap.net">PrimeGap</a>
             </li>
           </ul>
           <p>
@@ -109,6 +110,10 @@
               ...
               <strong>Cyberpunk novels</strong>
             </li>
+            <li>
+              ...
+              <strong>Badass science</strong>
+            </li>
           </ul>
           <br />
         </div>
@@ -117,20 +122,60 @@
         <div id='main'>
           <div class='brick col3'>
             <h4>
-              <a href="http://moka.primegap.net/">Moka, a damn cool static website framework</a>
+              <a href="https://github.com/lucaong/jquery-machine">jQuery-Machine, kick-ass finite state machines</a>
             </h4>
             <p>
-              Moka is a framework I coded for developing static websites with the style and simplicity of haiku poetry (this website was entirely built with it). It minimize chores and maximise creativity. It is (naturally) <a href="https://github.com/DukeLeNoir/Moka">open source</a>, written in pure Ruby and released as a Ruby gem. I'm sure you'll hear great things about it very soon!
+              I developed this tiny weapon to assist me in producing smart multi-state UI elements. It is a clean, simple and efficient approach to finite state machines packaged into a lightweight jQuery plugin. Download it and fork the code on the project's
+              <a href="https://github.com/lucaong/jquery-machine">GitHub page</a>.
+            </p>
+          </div>
+          <div class='brick col2'>
+            <h4>
+              <a href="https://github.com/lucaong/noiseGen">NoiseGen, background noise with JavaScript</a>
+            </h4>
+            <p>
+              NoiseGen is another micro project of mine. It's a simple jQuery plugin to dynamically generate background noise. It provides a fallback for browsers that don't support the canvas element and many useful configuration options. You can see a
+              <a href="http://www.lucaongaro.eu/demos/noisegen/">demo here</a> or <a href="http://primegap.net/2011/10/20/noisegen-generate-background-noise-with-jquer/">read about it on PrimeGap</a>.
             </p>
           </div>
           <div class='brick col1'>
             <h4>
+              <a href="https://github.com/lucaong/jsterminal">JSterminal, a bookmarklet to rule 'em all</a>
+            </h4>
+            <p>
+              A CLI-like universal bookmarklet, with an extensible API, for the ultimate geek. <a href="http://www.lucaongaro.eu/demos/jsterminal/">Try it out</a>.
+            </p>
+          </div>
+          <div class='brick col1'>
+            <h4>
+              <a href="http://www.dailywits.com/">DailyWits, collect your personal wisdom</a>
+            </h4>
+            <p>
+              DailyWits is a cute little Web app I designed with my girlfriend. It lets you write down and share the lessons you learn every day, and build your own book of wisdom. For example, this is my personal <a href="http://www.dailywits.com/users/1">DailyWits book</a>.
+            </p>
+          </div>
+          <div class='brick col2'>
+            <h4>
+              <a href="http://moka.primegap.net/">Moka, a damn cool static website framework</a>
+            </h4>
+            <p>
+              Moka is a framework I coded for developing static websites with the style and simplicity of haiku poetry (this website was entirely built with it). It minimizes chores and maximizes creativity. It is (naturally) <a href="https://github.com/lucaong/Moka">open source</a>, written in pure Ruby and released as a Ruby gem. I'm sure you'll hear great things about it very soon!
+            </p>
+          </div>
+          <div class='brick col2'>
+            <h4>
               <a href="http://www.lucaongaro.eu/demos/jqcloud/">jQCloud, neat word clouds with jQuery</a>
             </h4>
             <p>
-              I recently developed jQCloud, an open source jQuery plugin to make beautiful pure HTML word clouds and tag clouds. You can see a demo
-              <a href="http://www.lucaongaro.eu/demos/jqcloud/">here</a>
-              and read the source code or fork it on <a href="http://www.lucaongaro.eu/demos/jqcloud/">GitHub</a>.
+              I recently developed jQCloud, an open source jQuery plugin to make beautiful pure HTML word clouds and tag clouds. You can see a <a href="http://www.lucaongaro.eu/demos/jqcloud/">demo</a>, read a <a href="http://primegap.net/2011/03/04/jqcloud-a-jquery-plugin-to-build-neat-word-clouds/">tutorial</a> and have a look at the the source code and fork it on <a href="http://www.lucaongaro.eu/demos/jqcloud/">GitHub</a>.
+            </p>
+          </div>
+          <div class='brick col1'>
+            <h4>
+              <a href="http://primegap.net">PrimeGap</a>
+            </h4>
+            <p>
+              The blog in which Luca Tironi, Andrea Mostosi and I share the gotchas and tricks of the trade that we discover in our development works. Check it out!
             </p>
           </div>
           <div class='brick col2'>
@@ -138,22 +183,22 @@
               <a href="http://learninglab.sdabocconi.it">SDA Bocconi Learning Lab</a>
             </h4>
             <p>
-              My current workplace, where I perform some research and develop web apps to support experiential learning in the Business School. It is a cool place, in which our crew of alpha geeks performs a lot of creative hacks and code kung fu. Many of the creative ninjas I know have been part of this lab at some point.
+              My past employer, where I performed research and developed web apps to support experiential learning in the Business School. It is a cool place, in which a crew of alpha geeks performs a lot of creative hacks and code kung fu. Many of the creative ninjas I know have been part of this lab at some point in their career.
             </p>
           </div>
           <div class='brick col1'>
             <h4>A Collective Brain</h4>
             <p>
-              Have you ever thought about the fact that huge networks of active Internet users, like Twitter or the Web itself, may display a self-organizing behavior and emergent computational capabilities? I'm doing some research and my master thesis on this...
+              Have you ever thought about the fact that huge networks of active Internet users, like Twitter or the Web itself, may display a self-organizing behavior and emergent collective computational capabilities? I'm doing some research and I wrote my master thesis on this...
             </p>
           </div>
           <div class='brick col1'>
             <h4>
-              <a href="http://www.lucaongaro.eu/terminal/">HTML Terminal</a>
+              <a href="http://www.lucaongaro.eu/demos/htmlterminal/">HTML Terminal</a>
             </h4>
             <p>
               This HTML + CSS + JavaScript
-              <a href="http://www.lucaongaro.eu/terminal/">command line terminal emulation</a>
+              <a href="http://www.lucaongaro.eu/demos/htmlterminal/">command line terminal emulation</a>
               is just a random experiment, but it would make a cool geeky login interface for a hacker site... If you want to use it, mod it and make it better let me know!
             </p>
           </div>
@@ -176,7 +221,7 @@
             <p>
               Developed years ago,
               <a href="http://www.virtualplantz.com">VirtualPlantz</a>
-              was one of my first complete web app. I developed it for fun, but it eventually thousands of users registered and helped me win a couple of competitions. It was a sort of pre-facebook-boom FarmVille.
+              was one of my first complete web app. I made it for fun, but it eventually gained thousands of registered users and helped me win a couple of competitions. It was a sort of pre-facebook-boom FarmVille.
             </p>
           </div>
           <div class='brick col1'>
@@ -184,7 +229,7 @@
               <a href="http://lucaongaro.tumblr.com/post/773206025/css3-and-javascript-toggle-button">HTML5 toggle button</a>
             </h4>
             <p>
-              I recently wrote a post on how to easily make a cool
+              I recently wrote a post on how to easily make a nice
               <a href="http://lucaongaro.tumblr.com/post/773206025/css3-and-javascript-toggle-button">HTML5 + CSS3 + JavaScript toggle button.</a>
               Have a look at it.
             </p>
@@ -205,8 +250,38 @@
         <span style="font-family: 'Zapf Dingbats'">&#9733;</span>
       </div>
     </div>
+    <a href='http://github.com/lucaong'>
+      <img alt='Fork me on GitHub' src='https://a248.e.akamai.net/assets.github.com/img/e6bef7a091f5f3138b8cd40bc3e114258dd68ddf/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67' style='position: absolute; top: 0; right: 0; border: 0;' />
+    </a>
     <script type='text/javascript'>
       //<![CDATA[
+        $(document).ready(function() {
+          $("html").noiseGen({
+            width: 70,
+            height: 50,
+            fromColor: "fef5e4",
+            toColor: "ede5d4",
+            opacity: 1,
+            independentChannels: false,
+            grainDimension: 1,
+            bias: 3,
+            distribution: "bell",
+            useCache: true
+          });
+          $("#wrap").noiseGen({
+            width: 70,
+            height: 70,
+            fromColor: "000000",
+            toColor: "ffffff",
+            opacity: 0.25,
+            independentChannels: false,
+            grainDimension: 1,
+            bias: -15,
+            distribution: "triangular",
+            useCache: true
+          });
+        });
+        
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-772585-1']);
         _gaq.push(['_trackPageview']);

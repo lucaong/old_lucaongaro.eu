@@ -1,9 +1,12 @@
 @import "colors"
 
+html
+  background-color: $background_color
+
 body
   font-family: Helvetica, Arial, sans-serif
   font-size: 13px
-  background-color: $background_color
+  background-color: transparent
   padding: 0.5em
 
 #wrap
@@ -12,11 +15,9 @@ body
   width: 960px
   background-color: #fff
   border: 1px solid $border_color
-  -webkit-box-shadow: 0px 2px 1px #aaa
-  -moz-box-shadow: 0px 2px 1px #aaa
-  box-shadow: 0px 2px 1px #aaa
-  background: -moz-linear-gradient(top, #fff 95%, #E0E0E0 100%)
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(95%,#fff), color-stop(100%,#E0E0E0))
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3)
   #header
     h1, h2, h3, h4, h5
       font-family: 'Lobster', arial, serif
@@ -39,7 +40,7 @@ body
         text-shadow: 0px 2px 0px #333
         font-size: 120px
         line-height: 100%
-        background-color: #fff
+        background-color: transparent
         a
           span.star
             font-family: Helvetica, Arial, sans-serif
@@ -63,18 +64,17 @@ body
       padding: 0
       width: auto
       background-color: $theme_color_one
-      background: -moz-linear-gradient(top, #af1523 50%, #82101a 100%)
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#af1523), color-stop(100%,#82101a))
-      -webkit-box-shadow: 0px 2px 1px #333
-      -moz-box-shadow: 0px 1px 1px #333
-      box-shadow: 0px 1px 1px #333
-      text-shadow: 0px -1px 0px #333
+      background-image: -moz-linear-gradient(top, #af1523 30%, #a01320 100%)
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#af1523), color-stop(100%,#a01320))
+      -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4)
+      -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4)
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4)
       height: 57px
       .left_tail
         float: left
-        margin: 20px 0 0 -57px
-        background-color: $theme_color_one
-        border-color: $theme_color_one $theme_color_one $theme_color_one $background_color
+        margin: 19px 0 0 -57px
+        background-color: transparent
+        border-color: $theme_color_one $theme_color_one $theme_color_one transparent
         border-style: solid
         border-width: 29px
         width: 0
@@ -87,9 +87,9 @@ body
           background-color: $theme_color_one
       .right_tail
         float: right
-        margin: 20px -57px 0 0
-        background-color: $theme_color_one
-        border-color: $theme_color_one $background_color $theme_color_one $theme_color_one
+        margin: 19px -57px 0 0
+        background-color: transparent
+        border-color: $theme_color_one transparent $theme_color_one $theme_color_one
         border-style: solid
         border-width: 29px
         width: 0
@@ -114,9 +114,8 @@ body
             font-size: 1.2em
           a
             margin: 0 0.25em
-            color: #d5daec
             color: #fff
-            text-shadow: 0px -1px 0px #333
+            text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.2)
             -webkit-transition: font-size 0.1s ease-in-out
             -moz-transition: font-size 0.1s ease-in-out
             -o-transition: font-size 0.1s ease-in-out
@@ -133,12 +132,12 @@ body
     .box
       padding: 1.5em 1.5em 0 1.5em
       background-color: $box_color
-      background: -moz-linear-gradient(top, $box_color 90%, #f0d9d0 100%)
+      background: -moz-linear-gradient(top, $box_color 90%, #ede3d2 100%)
       background: -webkit-gradient(linear, left top, left bottom, color-stop(90%,$box_color), color-stop(100%,#ede3d2))
       margin: 1em 1.5em 2em 1.5em
-      -webkit-box-shadow: 1px 2px 2px #bbb
-      -moz-box-shadow: 1px 2px 2px #bbb
-      box-shadow: 1px 2px 2px #bbb
+      -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4)
+      -moz-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4)
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4)
       p
         color: $text_color
         margin: 0
@@ -150,6 +149,8 @@ body
           font-style: italic
           margin: 0
           text-indent: 0
+      strong
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
 
   #content
     padding: 3em 0 1.5em 3em
@@ -191,7 +192,7 @@ body
       padding: 0
       margin: 0
       color: $theme_color_two
-      text-shadow: 0px 1px 1px #bbb
+      text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.8)
       a
         color: $theme_color_two
     h3
@@ -244,15 +245,18 @@ body
 
   .clear
     clear: both
-  
+
   .centered
     text-align: center
-  
+
   .footer
     font-size: 12px
     color: $lightest_text_color
     text-shadow: 0px 1px 0px #fff
-    margin-bottom: 0.5em
+    padding-bottom: 0.5em
+    margin: 0
+    background-image: -moz-linear-gradient(top, #fff 0%, #eee 100%)
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#eee))
     a
       color: $lightest_text_color
     a:hover
